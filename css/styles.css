@@ -11,16 +11,25 @@ html, body {
  
 }
 
+
 .table_header {
     border: 10px solid violet;
     color: blue;
     font-size: 40px;
     font-weight: bold;
-
+    
 }
 
-.table_body {
-    border: 10px solid violet;
+th{
+    text-align: center;
+    border: 10px double violet;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+td {
+    border: 10px solid lightskyblue;
     color: black;
     font-size: 30px;
 }
@@ -40,6 +49,10 @@ html, body {
     margin-left: 20px;
 }
 
+.name, .item{
+    padding-left: 30px;
+}
 .price{
     text-align: right;
+    padding-right: 500px;
 }
