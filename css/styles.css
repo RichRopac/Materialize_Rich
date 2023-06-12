@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 20px;
+}
+
+#table_1 {
+    border: 10px solid violet;
+ 
+}
+
+.table_header {
+    border: 10px solid violet;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.table_body {
+    border: 10px solid violet;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+
+#add, #delete{
+      margin-top:30px;
+}
+
+#add{
+    margin-left: 800px;
+}
+
+#delete {
+    margin-left: 20px;
+}
+
+.price{
+    text-align: right;
+}
